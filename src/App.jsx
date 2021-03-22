@@ -52,7 +52,7 @@ export const App = () => {
       />
       {incompleteTodos.length >= 5 && (
         <p style={{ color: "red" }}>
-          登録できるTODOは５個までです。消化してください。
+          登録できるTODOは５個までです。これ以上は追加できません。
         </p>
       )}
       <IncompleteTodos
